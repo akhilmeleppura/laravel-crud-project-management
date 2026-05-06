@@ -1,0 +1,123 @@
+# ============================================
+# LARAVEL GITIGNORE - PROFESSIONAL SETUP
+# ============================================
+
+# ============================================
+# PHP & Composer
+# ============================================
+/vendor/
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+composer.phar
+composer.lock (optional - uncomment if you want to track it)
+
+# ============================================
+# Environment Files (NEVER COMMIT THESE!)
+# ============================================
+.env
+.env.backup
+.env.production
+.env.staging
+.env.local
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# ============================================
+# Build & Compilation
+# ============================================
+/node_modules/
+/public/hot
+/public/storage (symbolic link - will be created via artisan)
+/storage/*.key
+/storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# Keep these directories but ignore their contents
+!storage/.gitkeep
+!storage/framework/.gitkeep
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
+
+# ============================================
+# Testing & Coverage
+# ============================================
+/coverage/
+/.phpunit.cache.html
+/clover.xml
+/junit.xml
+/test-report.xml
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.project
+.settings
+.nbproject
+.workbench
+
+# ============================================
+# Deployment & OS Files
+# ============================================
+/.vagrant/
+Homestead.yaml
+Homestead.json
+after.sh
+aliases.sh
+Vagrantfile
+.dockerignore
+docker-compose.override.yml
+
+# ============================================
+# Debug & Temporary Files
+# ============================================
+*.log
+*.tmp
+*.temp
+.cache
+.tmp/
+
+# ============================================
+# Uploads & User Content (if any)
+# ============================================
+/public/uploads/*
+!public/uploads/.gitkeep
+/storage/app/public/*
+!storage/app/public/.gitkeep
+
+# ============================================
+# Laravel Specific
+# ============================================
+/bootstrap/cache/compiled.php
+bootstrap/cache/config.php
+bootstrap/cache/routes-v7.php
+bootstrap/cache/services.php
+bootstrap/cache/events.php
+bootstrap/cache/packages.php
+bootstrap/cache/meta-services.php
+
+# ============================================
+# Misc
+# ============================================
+*.tar.gz
+*.zip
+*.rar
+REVISION
+TAGS
+tags
